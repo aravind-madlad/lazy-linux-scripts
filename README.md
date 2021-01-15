@@ -9,11 +9,11 @@ A personal repository for basic automation scripts in linux.Will add more as I c
 
 $./c.sh *filename-without-extension*
 
->To alias it under zshrc for global usage, paste the following to your 
+>To alias it under zshrc for global usage, paste the following line to your 
 .zshrc config file and the shell script in the home folder.
 
 alias c='zsh ~/c.sh $1'
  
->The Format after  using the said alias
+>The Format after pasting the above alias
 
 $c *filename-without-extension*
