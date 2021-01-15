@@ -12,7 +12,7 @@ $./c.sh *filename-without-extension*
 >To alias it under zshrc for global usage, paste the following to your 
 .zshrc config file and the shell script in the home folder.
 
-alias c='bash ~/c.sh $1'
+alias c='zsh ~/c.sh $1'
  
 >The Format after  using the said alias
 
