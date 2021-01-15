@@ -23,7 +23,7 @@ $c *filename-without-extension*
 >This goes to your documents folder and creates folder with the format mondd_yy, where mon is the month in three words, 
 dd is the date, and yy is the last two digits of the year.
 
->Paste the following function in your zsrc or bashrc file in you home folder
+>Paste the following function in your zshrc or bashrc file in you home folder
 
 work ()  
 {   
