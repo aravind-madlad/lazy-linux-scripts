@@ -17,3 +17,22 @@ alias c='zsh ~/c.sh $1'
 >The Format after pasting the above alias
 
 $c *filename-without-extension*
+
+# To jump into work folder
+
+>This goes to your documents folder and creates folder with the format mondd_yy, where mon is the month in three words, 
+dd is the date, and yy is the last two digits of the year.
+
+>Paste the following function in your zsrc or bashrc file in you home folder
+
+work ()
+{
+	local var=$(date +%b%d_%y) 
+	cd Documents
+	mkdir "$var"
+	cd "$var"
+} 
+
+>Format (From the home folder)
+
+$ work
