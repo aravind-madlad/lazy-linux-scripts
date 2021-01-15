@@ -25,13 +25,13 @@ dd is the date, and yy is the last two digits of the year.
 
 >Paste the following function in your zsrc or bashrc file in you home folder
 
-work ()
-{
-	local var=$(date +%b%d_%y) 
-	cd Documents
-	mkdir "$var"
-	cd "$var"
-} 
+work ()  
+{   
+	local var=$(date +%b%d_%y)    
+	cd Documents   
+	mkdir "$var"   
+	cd "$var"  
+}    
 
 >Format (From the home folder)
 
